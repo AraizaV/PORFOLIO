@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css" />
+		
+		<title>AraizaV | Portfolio</title>
+		
+	</head>
+	<body>
+		<header id="mainheader">
+			<nav id="navbar" class="nav-home">
+				<div class="container">
+					<a href="index.html" class="logo"><img src="/203-portfolio-II-main/img/logotipo.png" alt="" /></a>
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="about.html">Acerca de mi</a></li>
+						<li><a class="current" href="portfolio.html">Portafolio</a></li>
+						<li><a href="contact.html">Contacto</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<div id="portfolio">
+			<div class="container">
+				<h2>Portafolio</h2>
+				<div class="portfolio-row">
+					<div class="portfolio-row-box">
+						<img src="/203-portfolio-II-main/img/Banner_CO_EXPOxz-02.png" onclick="openFulImg(this.src)" alt="" />
+						<p>Banner promocional para el evento Global Exhibitions Day.</p>
+					</div>
+					<div class="portfolio-row-box">
+						<img src="./img/Banner_HS-HOTSSON_.jpg" onclick="openFulImg(this.src)" alt="" />
+						<p>Banner para Reencuentro de Regiones Centro, se realizó para la página web de AMPROFEC.</p>
+					</div>
+					<div class="portfolio-row-box">
+						<img src="./img/Banner_Wiinik.jpg" onclick="openFulImg(this.src)" alt="" />
+						<p>Diseño para plataforma wiinik por parte de AMPROFEC, este se desarrolló para el impulso de la plataforma mobile.</p>
+					</div>
+				</div>
+				<div class="portfolio-row">
+					<div class="portfolio-row-box">
+						<img src="./img/Banner_Expo_Merida.jpg" onclick="openFulImg(this.src)" alt="" />
+						<p>Rediseño de post para redes sociales, el diseño se realizó para exhibir el taller Bring Them Back</p>
+					</div>
+					<div class="portfolio-row-box">
+						<img src="./img/Post_Expografica-04.jpg" onclick="openFulImg(this.src)" alt="" />
+						<p>Post para redes sociales de EXPOGRÁFICA, el diseño fue realizado para invitar al evento.</p>
+					</div>
+					<div class="portfolio-row-box">
+						<img src="./img/Post_Plastics_Recycling-02-03.jpg" onclick="openFulImg(this.src)" alt="" />
+						<p>Diseño para Plastics Recycling Latam, invitación para evento. </p>
+					</div>
+				</div>
+				<div class="portfolio-row">
+					<div class="portfolio-row-box">
+						<img class="correct" src="/203-portfolio-II-main/img/Firmas Brayan Lara.jpg" onclick="openFulImg(this.src)" alt="" />
+						<p>Rediseño para tarjeta de presentación institucional.</p>
+					</div>
+					<div class="portfolio-row-box">
+						<img src="./img/Presentacion_Socios_Mesa de trabajo 1.jpg" onclick="openFulImg(this.src)" alt="" />
+						<p>Presentación de afiliación institucional AMPROFEC.</p>
+					</div>
+					<div class="portfolio-row-box">
+						<img  src="./img/Banner_Acerca_Nosotros-20.jpg" onclick="openFulImg(this.src)" alt="" />
+						<p>Banner para organigrama institucional.</p>
+					</div>
+				</div>
+				<div class="ful-img" id="fulImgBox">
+					<img src="img/Banner_Expo_Merida.jpg" id="fulImg" alt="" >
+					<span onclick="closeImg()">X</span>
+				</div>
+			</div>
+		</div>
+
+		
+			>
+			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</footer>
+		<script src="Js/script.js"></script>
+	</body>
+</html>
